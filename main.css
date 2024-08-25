@@ -1,0 +1,142 @@
+.contener {
+  background: black;
+  width: 100%;
+  height: 300px;
+}
+.bahrain-flag {
+  width: 300px;
+  height: 150px;
+  background: linear-gradient(to right, white 50%, red 50%);
+  display: flex;
+  margin-left: 40%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.bahrain-flag::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 10px;
+
+  height: 100%;
+  background: white;
+  clip-path: polygon(
+    0% 0%,
+    100% 5%,
+    0% 10%,
+    100% 15%,
+    0% 20%,
+    100% 25%,
+    0% 30%,
+    100% 35%,
+    0% 40%,
+    100% 45%,
+    0% 50%,
+    100% 55%,
+    0% 60%,
+    100% 65%,
+    0% 70%,
+    100% 75%,
+    0% 80%,
+    100% 85%,
+    0% 90%,
+    100% 95%,
+    0% 100%
+  );
+}
+.contener_ice_creamm {
+  background: blue;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ice_cream {
+  width: 200px;
+  height: 300px;
+  background: #fff1c1;
+  border-radius: 150px 150px 40px 40px;
+}
+.ice_cream_shadow {
+  width: 40px;
+  height: 20px;
+  background: #73342f;
+}
+.ice_cream_stick {
+  width: 40px;
+  height: 100px;
+  background: #fe5f55;
+  border-radius: 0 0 8px 8px;
+}
+.mountain {
+  background: #354276;
+  width: 100%;
+  height: 400px;
+  padding-top: 80px;
+}
+.mountain_upper_part {
+  border-radius: 50%;
+  background: #fff1c1;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  left: 40%;
+  position: relative;
+}
+.mountain_middle_part {
+  width: 200px;
+  height: 200px;
+  background: #fe5f55;
+  transform: rotate(40deg);
+  position: absolute;
+  bottom: -20%;
+  right: 0;
+}
+.mountain_middle_part:first-child {
+  bottom: -20%;
+  right: 0;
+}
+.mountain_middle_part:last-child {
+  bottom: -40%;
+  left: -5%;
+}
+.stair {
+  background: #293462;
+  width: 100%;
+}
+.wrapper {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.door {
+  border-radius: 150px 150px 0 0;
+  width: 200px;
+  height: 300px;
+  background: #4f77ff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  flex-direction: column;
+  gap: 10px;
+}
+.door_item {
+  width: 30%;
+  height: 40px;
+  background: #191919;
+}
+.door_item:nth-child(2) {
+  width: 40%;
+}
+.door_item:nth-child(3) {
+  width: 60%;
+}
+.door_item:nth-child(4) {
+  width: 80%;
+}
